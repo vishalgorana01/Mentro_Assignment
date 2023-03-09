@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.hideScrollbar::-webkit-scrollbar{
+    display: none;
+}
+
+
+.circular_box{
+    top: -813px;
+    right: -255px;
+    height: 1300px;
+    width: 1300px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.mentors_profile_photos{
+    border: 2px dashed brown;
+    height: 800px;
+    width: 800px;
+    right: 250px;
+    top: 884px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 1279px) {
+    .circular_box{
+        right: auto;
+    }
+
+    .center_photo{
+        width: 100% !important;
+        right: 0px !important;
+    }
+
+}
+
+@media screen and (max-width: 639px) {
+    .circular_box{
+        top: -1034px !important;
+    }
+
+    .active_profile_photo{
+        top: -155px !important;
+    }
+}
+
+.mentors_img_1{
+    transform: scale(0.4) translate(-40rem, -50rem);
+}
+
+.mentors_img_2{
+    transform: scale(0.4) translate(0rem, -63rem);
+}
+
+.mentors_img_3{
+    transform: scale(0.4) translate(40rem, -50rem);
+}
+
+.mentors_img_4{
+    transform: scale(0.4) translate(58rem, -14rem);
+}
+
+.mentors_img_5{
+    transform: scale(0.4) translate(-58rem, -14rem);
+}
+
+.mentors_img_6{
+    transform: scale(0.4) translate(-53rem, 26rem);
+}
+
+
+
+.active_profile_photo{
+    height: 800px;
+    width: 800px;
+    right: -7px;
+    top: 72px;
+    border-radius: 50%;
+}
